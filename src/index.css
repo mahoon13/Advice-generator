@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Manrope Bold;
+  src: url("/Manrope-Bold.ttf");
+}
+
+@font-face {
+  font-family: Manrope;
+  src: url("/Manrope-Regular.ttf");
+}
+
+*, ::before, ::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
