@@ -35,8 +35,8 @@ function App() {
             “{advice.advice}”
           </p>
 
-          <img src={MobileDeviderImage} className="sm:hidden" />
-          <img src={DesktopDeviderImage} className="hidden sm:block" />
+          <img src={MobileDeviderImage} className="sm:hidden" alt="devider" />
+          <img src={DesktopDeviderImage} className="hidden sm:block" alt="devider" />
 
           <div
             className={`absolute bottom-[-40px] left-[calc(50%_-_40px)] w-[80px] h-[80px] bg-neon-green rounded-full flex justify-center items-center cursor-pointer select-none hover:shadow-neon-green hover:shadow-[0_0_20px_0] transition-shadow ${
@@ -44,7 +44,7 @@ function App() {
             }`}
             onClick={() => loadRandomAdvice()}
           >
-            <img src={DiceIcon} className="w-[2rem]" />
+            <img src={DiceIcon} className="w-[2rem]" alt="dice" />
           </div>
         </div>
       ) : (
