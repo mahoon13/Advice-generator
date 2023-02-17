@@ -28,7 +28,7 @@ function App() {
     <div className="bg-dark-blue w-full h-screen flex justify-center items-center">
       {advice ? (
         <div className="bg-dark-grayish-blue text-center w-[90%] max-w-[550px] pt-[2.5rem] sm:pt-[3rem] pb-[4rem] sm:pb-[5rem] px-[1.5rem] sm:px-[2rem] flex flex-col gap-[1.5rem] rounded-xl relative">
-          <p className="uppercase text-neon-green tracking-[0.3rem] font-manrope text-sm">
+          <p className="uppercase text-neon-green tracking-[0.3rem] font-manrope text-sm font-bold">
             Advice #{advice.id}
           </p>
           <p className="text-[28px] text-light-cyan font-manrope-bold">
